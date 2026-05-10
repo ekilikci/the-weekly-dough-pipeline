@@ -115,3 +115,5 @@ Data Product Layer
 Consumers
 
 ```
+
+For more details, see [Data Mesh Design](docs/data_mesh_design.md).
