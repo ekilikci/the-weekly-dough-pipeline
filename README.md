@@ -88,3 +88,30 @@ The first version will not include:
 - Complex production-grade observability
 - Multi-language support beyond the selected MVP sources
 - Personally identifiable information
+
+### High-level architecture
+
+The project follows a layered data architecture.
+
+```
+Third-party recipe sources
+        |
+        v
+Weekly Airflow DAG
+        |
+        v
+Raw Layer
+        |
+        v
+Staging Layer
+        |
+        v
+Data Quality Checks
+        |
+        v
+Data Product Layer
+        |
+        v
+Consumers
+
+```
